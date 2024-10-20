@@ -32,14 +32,10 @@ jobs:
           plugin_achievements: yes
           plugin_forked: yes
           
-          # Configure languages plugin and exclude VHDL
           plugin_languages_ignored: VHDL, SystemVerilog
-          
-          # Configure stars plugin
-          stars_limit: 10
-
-          # Configure contributors plugin
           contributors_sections: commits, issues, pull-requests
+
+          plugin_repositories_featured: sustech-cs304/galaguide, Charley-xiao/ecs171-project, Charley-xiao/balance-it, Charley-xiao/nogenshin
 
           # Additional configuration for order and layout
           config_order: base.header, isocalendar, languages, stars, repositories, contributors, activity, followup, topics, achievements, forked
