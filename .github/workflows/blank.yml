@@ -19,7 +19,28 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Singapore
           base: header
+          
+          # Enable more plugins
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
-          config_order: base.header, isocalendar, languages, stars
+          plugin_activity: yes
+          plugin_contributors: yes
+          plugin_followup: yes
+          plugin_repositories: yes
+          plugin_topics: yes
+          plugin_achievements: yes
+          plugin_forked: yes
+          
+          # Configure languages plugin and exclude VHDL
+          languages_skipped: VHDL
+          
+          # Configure stars plugin
+          stars_limit: 10
+
+          # Configure contributors plugin
+          contributors_sections: commits, issues, pull-requests
+
+          # Additional configuration for order and layout
+          config_order: base.header, isocalendar, languages, stars, repositories, contributors, activity, followup, topics, achievements, forked
+          config_display: large
