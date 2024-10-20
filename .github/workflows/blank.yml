@@ -33,7 +33,7 @@ jobs:
           plugin_forked: yes
           
           # Configure languages plugin and exclude VHDL
-          languages_skipped: VHDL
+          plugin_languages_ignored: VHDL, SystemVerilog
           
           # Configure stars plugin
           stars_limit: 10
