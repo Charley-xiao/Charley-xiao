@@ -33,7 +33,7 @@ jobs:
           plugin_forked: yes
           plugin_code: yes
           
-          plugin_languages_ignored: VHDL, SystemVerilog
+          plugin_languages_ignored: VHDL, SystemVerilog, JavaScript, HTML, Verilog
           contributors_sections: commits, issues, pull-requests
 
           plugin_repositories_featured: sustech-cs304/galaguide, Charley-xiao/ecs171-project, Charley-xiao/balance-it, Charley-xiao/nogenshin
