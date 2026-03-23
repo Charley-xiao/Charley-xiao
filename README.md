@@ -1,5 +1,7 @@
 ### Hi, I'm Qiwen Xiao 👋
 
+[ [CV](./New_CV.pdf) ]
+
 🎓 CS undergrad @ SUSTech since 2022  
 🔬 Interested in ML, generative models, and computer vision  
 
